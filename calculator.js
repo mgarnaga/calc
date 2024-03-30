@@ -86,3 +86,8 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     })
 });
+
+window.addEventListener('keyup', (event) => {
+    const key = document.querySelector(`button[id='${event.key}']`);
+    key.click();
+});
