@@ -1,1 +1,1 @@
-playing around whith JS functions, conditions, regex etc. for fun
+playing around with JS functions, conditions, selectors and regex for fun
