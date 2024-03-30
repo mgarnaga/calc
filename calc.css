@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    margin-top: 10%;
+    background-color: rgb(47, 47, 47);
+    padding: 18px;
+    place-items: center;
+}
+
+.btn, #display, .number, .operator, .clear, .result, .dot {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 2px;
+    padding: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+#clear {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 6px;
+    width: 255px;
+}
+
+.operator {
+    background-color: rgb(169, 208, 209);
+}
+
+#display {
+    width: 214px;
+    height: 50px;
+    background-color: rgb(215, 250, 246);
+    text-align: right;
+    text-shadow: 1.2px 1.5px rgb(47, 47, 47);
+    color:rgb(60, 60, 60);
+}
+
+#first-row {
+    margin-top: 10px;
+}
