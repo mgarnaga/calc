@@ -1,3 +1,7 @@
+body {
+    background-color: dimgray;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -41,6 +45,7 @@ main {
     text-align: right;
     text-shadow: 1.2px 1.5px rgb(47, 47, 47);
     color:rgb(60, 60, 60);
+    overflow: hidden;
 }
 
 #first-row {
