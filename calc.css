@@ -42,6 +42,7 @@ main {
     width: 214px;
     height: 50px;
     background-color: rgb(215, 250, 246);
+    font-size: 24px;
     text-align: right;
     text-shadow: 1.2px 1.5px rgb(47, 47, 47);
     color:rgb(60, 60, 60);
